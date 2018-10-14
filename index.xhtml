@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>User creation form</title>
+        <link rel="stylesheet" href="styles/p2.css" type="text/css"></link>
+        <script src="scripts/p2.js"></script>
+        <style type="text/css">
+            @font-face {
+                font-family: tahoma;
+                src: url('styles/Tahoma.ttf');
+            }
+        </style>        
+    </head>
+
+    <body>
+        <header style="width: 100%; height: 60px; float: left; heigth: 100px; background-color: ; border-bottom: 1px solid #39B5B1;">
+            <span style="font-size: 28px; color: #39B5B1; float: left; padding: 15px 0 0 15px;">PesticideCtrl</span>
+        </header>        
+        <div style="float: left; width: 100%; text-align: center;">
+            <div style="display: inline-block; width: 400px; margin-top: 40px; border: 1px solid #39B5B1; padding: 0 10px 0 0;">
+                <form id="newUserForm" name="newUserForm" action="scripts/register.php" method="post">
+                    <table style="float: left; width: 100%;">
+                        <tr>
+                            <td colspan="2">
+                                <span style="color: #3FC7C2; font-size: 20px;">User Creation Form</span>
+                            </td>
+                        </tr>                    
+                        <tr>
+                            <td>
+                                <input id="firstname" placeholder="firstname" name="firstname" style="width: 100%;"></input>
+                            </td>
+                            <td>
+                                 <input id="lastname" placeholder="lastname" name="lastname" style="width: 100%;"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input id="username" placeholder="username" name = "username" style="width: 100%;"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input id="email" type="email" placeholder="email" name="email" style="width: 100%;"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: left;">
+                                <input id="isAdminBox" name="isAdminBox" type="checkbox" style="text-align: left;"></input>
+                                <span style="color: #6B6B6B;">Admin</span>
+                                <input id="isAdmin" name="isAdmin" type="hidden" value="false"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="display: none;">
+                                <input id="hiddenField" name="hiddenField" placeholder="hiddenField" type="hidden" style="width: 100%;" value="c7fafc6d1d3ec4671a3beb6423d69090"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input id="certificate" name="certificate" placeholder="certificate no." type="text" style="width: 100%;"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input id="password" name="password" placeholder="password" type="password" style="width: 100%;"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input id="cpassword" name="cpassword" placeholder="confirm password" type="password" style="width: 100%;"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center; padding: 10px 0px;">
+                                <button id="submitForm" type="button" style="background-color: #39B5B1; color: white; border: 0; width: 100%; height: 30px; margin-left: 5px;" onclick="window.validateForm()">submit</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

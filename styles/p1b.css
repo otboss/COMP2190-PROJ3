@@ -1,0 +1,18 @@
+.leftalignCell{
+    text-align: left;
+}
+.centeralignCell{
+    text-align: center;
+}
+.frame{
+    float: left; 
+    border: 10px solid #d0d0ff; 
+    padding: 20px; 
+}
+thead{
+    text-align: center;
+    font-weight: bold;
+}
+tbody{
+    color: #2D2D2D;
+}

@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+               
+span{
+    font-family: tahoma;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+   color: #8AC0BE;
+}
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+   color: #8AC0BE;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+   color: #8AC0BE;
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+   color: #8AC0BE;
+}            
+
+input{
+    border: 0px solid;
+    border-bottom: 1px solid #00B0AA;
+    padding: 3px 5px;
+    font-size: 18px;
+    color: #00A6A0;
+    background-color: transparent;
+}
+
+.errorField{
+    border-color: 1px solid red;
+}
+
+.noErrorField{
+    border-color: 1px solid #00B0AA;
+}
+
+td{
+    padding: 10px 10px;
+}
+
+button{
+    cursor: pointer;
+}

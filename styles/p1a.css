@@ -1,0 +1,26 @@
+.footerRow{
+    display: none;
+}
+.leftalignCell{
+    text-align: left;
+}
+.centeralignCell{
+    text-align: center;
+}
+.darkrow{
+    background-color: #dfe1e7;
+    border-top: 1px solid white;
+}
+.lightrow{
+    background-color: #eeeff2;
+    border-top: 1px solid white;
+}
+thead{
+    color: white;
+    background-color: #687291;
+    text-align: center;
+    font-weight: bold;
+}
+tbody{
+    color: #2D2D2D;
+}
